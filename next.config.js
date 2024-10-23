@@ -11,7 +11,7 @@ const nextConfig = {
       },
     ],
   },
-  async rewrites() {
+async rewrites() {
     return [
       {
         source: '/api/:path*',
@@ -19,6 +19,5 @@ const nextConfig = {
       },
     ]
   },
-}
 
 module.exports = nextConfig
